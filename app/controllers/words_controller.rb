@@ -14,7 +14,7 @@ end
 post '/words' do
   @page="newword"
   
-    @word = Word.create(text: params[:word])
+    @word = Word.create(text: params[:text])
 
     if @word.valid?
         @word.save
