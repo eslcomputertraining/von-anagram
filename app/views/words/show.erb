@@ -1,0 +1,11 @@
+<div class="page-container color text-center">
+  <h1>Anagrams for <%= @word.text %> are: </h1>
+  <% if !@anagrams.nil? %>
+  <h3>Your word and anagrams are:</h3>
+  <ul class="list-unstyled">
+  	<% @anagrams.each do |anagram| %>
+			<li> <%= "#{anagram}" %> </li>
+  	<% end %>
+  </ul>
+   <% end %>
+</div>

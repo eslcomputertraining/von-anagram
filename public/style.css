@@ -1,0 +1,24 @@
+body {
+	background:#f8f8f8;
+	background:url('images/cherrytree.jpg');
+	font-family:'montserrat', arial;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+h1{
+	text-align: center;
+}
+.center {
+	width: 300px;
+	margin: auto;
+}
+.color{
+		color: fuchsia;
+}
+.font{
+	font-size: 15px;
+}
+.spacing{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}

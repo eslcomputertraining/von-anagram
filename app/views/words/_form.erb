@@ -1,0 +1,16 @@
+<div class="form">
+<form action="<%= words_form_action(@word) %>" method="post" class="new-word col-md-4 col-md-offset-4" id="new-word">
+    <input type="hidden" name="_method" value="<%= words_form_method(@word) %>">
+    <div class="form-group">
+      <div>
+        <input class="form-control" type="text" name="text" value="<%= @word.text %>" />
+      </div>
+    </div>
+ 
+    <div class="form-group text-center">
+      <div>
+       <button type="submit" class="btn btn-info">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
